@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    transition: all 0.7s ease;
+}
+
+body{
+    background-color: #111111;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    margin: 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+ul{
+    list-style-type: none;
+    gap: 16px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: white;
+}
+
+.navigation a:hover{
+    color: 	#e9f479;
+}
+
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    width: 100%;
+    margin: 0;
+    padding:0;
+    box-shadow: 0px 3px 4px 1px rgba(0,0,0,0.29);
+    font-family: 'Inter', sans-serif;
+    /* i don't know much on this sticky and index copy pasta moment*/
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: #111111;
+
+
+
+}
+.logo{
+    display: flex;
+    margin: 0;
+    padding: 0 16px;
+    align-items: center;
+
+
+}
+img{
+    height: 8vh;
+    width:auto;
+}
+
+
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0 16px;
+
+}
+
+.content-first{
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    padding: 8rem;
+    justify-content: space-around;
+    background-image:url('/resources/PhotoCompositehouseandmountain.jpg');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    isolation: isolate;
+    /* isolate?? and position??*/
+    
+}
+
+.content-first div{
+    height: 35vh;
+}
+
+.content-first p{
+    font-size: 1.5em;
+    padding-left: 10px;
+}
+
+.content-first::after{
+    content: '';
+    position: absolute;
+    background: rgb(2,0,36);
+    background: linear-gradient(68deg, rgba(2,0,36,1) 13%, rgba(59,17,115,0.5) 37%, rgba(8,8,32,1) 75%); 
+    inset: 0;
+    z-index: -1;
+    opacity: .7;
+
+}
+.content-first h1{
+    font-weight: 500;
+    font-size: 5em;
+}
+
+.yudea-pic{
+    width: 30vh;
+    height: auto;
+    border-radius:50% ;
+}
+
+.image-split{
+   border-radius: 50%; 
+}
+a.anchor {
+    display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;
+}
+.content-second
+.second-title{
+    text-align: center;
+    font-size: 2.5em;
+    padding:2vh;
+    margin: 0;
+}
+.second-split{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    height: 30vh;
+}
+
+.split-text{
+    text-align: center;
+}
+
+.second-split div{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
+    font-size: 1.5em;
+    padding: 15px;
+}
+
+.second-split div:hover{
+    color:bisque;
+    transform: scale(1.1);
+}
+
+
+.content-third{
+    font-size: 3vw;         
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 30vh;
+    background-color: #333333;
+    padding: 200px;
+    
+}
+
+.title-quotes{
+    font-size: 3vw;
+    margin-left: auto;
+
+}
+
+.content-third p{
+    margin: 0;
+    padding: 0;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:blanchedalmond;
+    text-align: center;
+    background-color: black;
+    height: 8vh;
+}
+
+
+.cta-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+    padding: 100px;
+    height: 50vh;
+    font-size: 2em;
+}
+
+.cta-right{
+    margin: 0;
+}
+.cta-button{
+    text-align: center;
+    font-size:1em;
+    padding: 32px 72px;
+    margin: 0;
+    border-radius: 10px;
+    color: white;
+    background: #111111;
+    border-color: #61ebba;
+}
+.cta-button a{
+    color: #61ebba;
+}
+
+.cta.button a:visited{
+    color: white;
+}
+
+.cta-button:hover a{
+    color: #111111;
+}
+.cta-button:hover{
+    background-color: #61ebba;
+    
+}
+
